@@ -11,13 +11,14 @@
 }
 
 .shadow {
-  text-shadow: 3px 3px 0 var(--accent-color, #ff0070);
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
 .cover {
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  min-block-size: 100vh;
+  block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .rec {
@@ -80,7 +81,7 @@
 }
 
 .link:hover {
-  border-block-end: 2px solid var(--text-color, #f1b2ce);
+  border-block-end: 1px solid var(--text-color, #f1b2ce);
 }
 
 .link:focus {
