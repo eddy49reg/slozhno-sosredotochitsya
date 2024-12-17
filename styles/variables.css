@@ -1,4 +1,26 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --color-pink-lightest: #fff1f7;
+  --color-pink-light: #f1b2ce;
+  --color-pink-medium: #ffc2e6;
+  --color-pink-bright: #ff8dcb;
+
+  --color-purple-vivid: #db00ff;
+  --color-purple-pinkish: #ff0070;
+  --color-purple-transparent: rgba(255, 0, 112, 0.4);
+
+  --color-black-dark: #353430;
+  --color-black-transparent: rgba(50, 49, 45, 0.4);
+  --color-black-night: #000028;
+
+  --text-color: var(--color-pink-light, #f1b2ce);
+  --brand-color: var(--color-purple-vivid, #db00ff);
+  --secondary-color: var(--color-purple-pinkish, #ff0070);
+  --secondary-color-hover: var(--color-purple-transparent, #ff007040);
+  --accent-color: var(--color-purple-pinkish, #ff0070);
+  --highlight-color: var(--color-black-night, #000028);
+
+  --main-bg-image: url('../images/cover-image-dark.png');
+  --main-bg-color: var(--color-black-night, #000028);
+
+  --rec-visibility: visible;
+}
